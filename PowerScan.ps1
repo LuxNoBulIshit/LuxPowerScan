@@ -196,7 +196,7 @@ function adjustment ($arr) {
 
   foreach ($_ in $arr) {
     [string]$str = $_
-    Write-Host -ForegroundColor Green "this is the open ports:" $_ $info[$str]
+    Write-Host -ForegroundColor Green "this is the following open ports::" $_ $info[$str]
   }
   Write-Host -ForegroundColor Red "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "
   Write-Host ""
